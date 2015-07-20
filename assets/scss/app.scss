@@ -4,6 +4,10 @@ $fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import 'font-awesome';
 @import 'bourbon';
 @import 'neat';
+$menu-text-1: #646464;
+$menu-text-2:  #3DAFC8;
+$menu-bg-1: #FEFDE7;
+$menu-bg-2: white;
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -12,5 +16,138 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.content {
+    background: $menu-bg-1;
+    width: 960px;
+}
+.top-menu {
+    padding: 1em 2em;
+    border-bottom: 2px $menu-text-1 solid;
+    background: $menu-bg-2;
 
+    h1 {
+        display: inline;
+        color:#f45800;
+        font-weight: 400;
+        font-size: 2.5em;
+        vertical-align: bottom;
+        padding-right: 4px;
+
+    }
+}
+input {
+        width: 25em;
+        display: inline;
+        padding: 6px 10px;
+        height: 34px;
+        border-radius: 5px;
+        overflow:auto;
+        border: 1px $menu-text-1 solid;
+
+    }
+button {
+    background:$menu-text-2;
+    position: absolute;
+    left: 20em;
+    top: 1.4em;
+    height: 34px;
+    width: 5em;
+    font-size: 1em;
+    font-family: Arial;
+    color: $menu-bg-2;
+    border-top: 1px $menu-text-1 solid;
+    border-right: 1px $menu-text-1 solid;
+    border-bottom: 1px $menu-text-1 solid;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.top-menu ul{
+    position: absolute;
+    left: 27em;
+    top: 4em;
+    border: 1px solid $menu-text-1;
+    border-radius: 4px;
+}
+
+.menu-button {
+    width: 5em;
+    padding: .4em;
+    border: 1px solid $menu-text-1;
+    border-radius: 4px;
+    font-family: arial;
+    color: $menu-text-1;
+    position: absolute;
+    left: 27em;
+    top: 1.5em;
+
+}
+
+.menu-button li {
+    position: absolute;
+    right: 21em;
+    top: 5em;
+    font-family: arial;
+    color: $menu-bg-2;
+    padding: .4em;
+    background: $menu-text-1;
+    display: none;
+}
+
+.right-side {
+    padding-top: 1em;
+    width: 10em;
+    float: right;
+    color: $menu-text-2;
+    font-family: arial;
+    font-size: 1em;
+    span {
+    border: 1px solid $menu-text-2;
+    border-radius: 4px;
+    padding: .4em;
+    }
+    i {
+        color: black
+    }
+}
+.sidebar {
+    padding: .5em;
+    font-family: Arial;
+    background: $menu-bg-1;
+    width: 18em;
+}
+.sidemenu-1 {
+    background: $menu-bg-2;
+    border: 1px $menu-text-1 solid;
+    border-radius: 4px;
+    padding: 1em;
+}
+.sidemenu-1 li {
+    font-size: .8em;
+    color: $menu-text-2;
+    padding: .4em .8em .4em .4em;
+}
+.main-content {
+    float: right;
+    width: 40em;
+    background: $menu-bg-2;
+    position: absolute;
+    top: 5em;
+    left: 18em;
+    height: 500em;
+}
+.item {
+    float: left;
+    background: red;
+    width: 12.5em;
+    height: 16em;
+    margin-left: .6em;
+    margin-bottom: .8em;
+    img {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 2.5%
+    }
+}
 // Your SASS Journey Starts Here
+//

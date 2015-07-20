@@ -8,8 +8,102 @@
     <title>Etsy</title>
 </head>
 <body>
+    <div class="content">
+        <div class="top-menu">
+            <h1>Etsy</h1>
+                <input type="text" name="search" value="Find Handmade and Vintage Items">
+            <button name="search">Search</button>
+            <div tabindex= "0" class ="menu-button">Browse
+<!--                 <ul>
+                    <li>Back to School</li>
+                    <li>Summer Celebrations</li>
+                    <li>Gift Ideas</li>
+                    <li>Fund on Etsy</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+ -->            </div>
 
-<script src="jquery/dist/jquery.min.js"></script>
+            <div class="right-side">
+                <a href="https://www.etsy.com/join?ref=hdr&from_page=https%3A%2F%2Fwww.etsy.com%2Fsearch"> Register</a>
+                <span>Sign in</span>
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidemenu-1">
+                <h4>All Categories</h4>
+                <ul>
+                    <li>Art & Collectibles</li>
+                    <li>Home & Living</li>
+                    <li>Jewelry</li>
+                    <li>Accessories</li>
+                    <li>Bags & Purses</li>
+                    <li>Paper & Party Supplies</li>
+                    <li>Electronics & Accessories</li>
+                    <li>Craft Supplies & Tools</li>
+                    <li>Clothing</li>
+                    <li>Pet Supplies</li>
+                    <li>Books, Movies & Music</li>
+                    <li>Weddings</li>
+                    <li>Bath & Beauty</li>
+                </ul>
+            </div>
+            <div class="sidemenu-2">
+
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="item">
+                <a href=""><img src="https://img0.etsystatic.com/047/1/7101908/il_170x135.713153156_i7yn.jpg" alt="img"></a>
+                <a href=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="https://img0.etsystatic.com/047/1/7101908/il_170x135.713153156_i7yn.jpg" alt="img"></a>
+                <a href=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="https://img0.etsystatic.com/047/1/7101908/il_170x135.713153156_i7yn.jpg" alt="img"></a>
+                <a href=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="https://img0.etsystatic.com/047/1/7101908/il_170x135.713153156_i7yn.jpg" alt="img"></a>
+                <a href=""></a>
+            </div>
+            <script id="item" type="item-template">
+                <img src="{{item.url_170x135}}">
+                <h3>{{item.title}}</h3>
+                <p>{{item.shop}_name}} {{item.price}}</p>
+            </script>
+        </div>
+    </div>
+
+<!--         <template class="main-template">
+            {{#each results as |result|}}
+                {{result}}
+            {{/each}}
+
+        </template>
+        <template class="item">
+            <article>
+                <img src="item.url_170x135">
+                <h3>{{item.title}}</h3>
+                <p>{{item.shop}_name}} {{item.price}}</p>
+            </article> -->
+
+
+
+    </div>
+
+<!-- <script src="jquery/dist/jquery.min.js"></script> -->
 <script src="handlebars/handlebars.js"></script>
 <script src="load-etsy.js"></script>
 <script src="app.js"></script>
