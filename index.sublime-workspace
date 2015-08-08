@@ -1,0 +1,466 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"menu",
+				"menu-bg-2"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"men",
+				"menu-bg-2"
+			],
+			[
+				"m",
+				"menu-bg-2"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"me",
+				"menu-text-2"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"etsy",
+				"loadEtsy"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"di",
+				"d-ib	display: inline-block;"
+			],
+			[
+				"d-i",
+				"d-i	display: inline;"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"register",
+				"registerPartialByQuery"
+			],
+			[
+				"reg",
+				"registerPartialByQuery"
+			],
+			[
+				"tim",
+				"timeDif"
+			],
+			[
+				"va",
+				"valueOf"
+			],
+			[
+				"time",
+				"timeEl"
+			],
+			[
+				"but",
+				"buttonHasBeenCLicked"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"mode",
+				"modeEl"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"value",
+				"valueEl"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"valuE",
+				"valueEl"
+			],
+			[
+				"de",
+				"denominators"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"teme",
+				"theme-color-2"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"list",
+				"list-d	list-style-type: disc;"
+			],
+			[
+				"lis",
+				"list	list-style-type"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"d-ib",
+				"d-ib+	display: inline-block;\n*display: inline;\n*zoom: 1;"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"li",
+				"list	list-style-type"
+			],
+			[
+				"hea",
+				"head	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"onsave",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"file",
+				"ANF: Rename File"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Brent/IronYard/week-3/3.4-etsy/assets/js/app.js",
+		"/Users/Brent/IronYard/week-3/3.4-etsy/assets/js/load-etsy.js",
+		"/Users/Brent/IronYard/week-3/3.4-etsy/assets/scss/app.scss",
+		"/Users/Brent/IronYard/week-3/3.4-etsy/public/index.html",
+		"/Users/Brent/IronYard/week-3/lesson-4.2/assets/js/load-data.js",
+		"/Users/Brent/IronYard/week-3/3.2-clock/assets/script.js",
+		"/Users/Brent/IronYard/week-3/3.2-clock/assets/app.scss",
+		"/Users/Brent/IronYard/week-3/3.2-clock/Brocfile.js",
+		"/Users/Brent/IronYard/week-3/3.2-clock/public/index.html",
+		"/Users/Brent/IronYard/week-3/3.2-clock/index.html",
+		"/Users/Brent/IronYard/week-3/3.2-clock/.gitignore",
+		"/Users/Brent/IronYard/week-3/lesson-2/public/index.html",
+		"/Users/Brent/IronYard/week-3/lesson-2/Brocfile.js",
+		"/Users/Brent/IronYard/week-3/lesson-2/assets/app.scss",
+		"/Users/Brent/IronYard/week-3/lesson-2/assets/js/hal.js",
+		"/Users/Brent/IronYard/week-1/1.4/css/styles.css",
+		"/Users/Brent/IronYard/week-1/1.4/index.html",
+		"/Users/Brent/IronYard/week-2/2.2/public/index.html",
+		"/Users/Brent/IronYard/week-2/2.2/asset/app.scss",
+		"/Users/Brent/IronYard/week-3/3.2-calc/public/app.js",
+		"/Users/Brent/IronYard/week-3/3.2-calc/public/index.html",
+		"/Users/Brent/IronYard/week-3/3.1/fizzbuzz.js",
+		"/Users/Brent/IronYard/week-3/3.2-calc/app.js",
+		"/Users/Brent/IronYard/week-3/3.2-calc/public.index.html",
+		"/Users/Brent/IronYard/week-3/3.2-calc/index.html",
+		"/Users/Brent/IronYard/week-2/2.1/index.html",
+		"/Users/Brent/IronYard/week-2/2.1/css/styles.css",
+		"/Users/Brent/IronYard/week-3/3.1/.git/COMMIT_EDITMSG",
+		"/Users/Brent/IronYard/week-3/3.1/index.js",
+		"/Users/Brent/IronYard/week-2/2.3/public/index.html",
+		"/Users/Brent/IronYard/week-2/2.3/Brocfile.js",
+		"/Users/Brent/IronYard/week-2/2.3/assets/app.scss",
+		"/Users/Brent/IronYard/week-2/2.3/package.json",
+		"/Users/Brent/IronYard/week-2/2.3/bower.json",
+		"/Users/Brent/IronYard/week-2/2.3/idex.html",
+		"/Users/Brent/gh-page.sh",
+		"/Users/Brent/IronYard/week-2/2.2/Brocfile.js",
+		"/Users/Brent/.zshrc",
+		"/Users/Brent/IronYard/week-2/2.2/package.json",
+		"/Users/Brent/IronYard/week-2/2.2/public/css/styles.css",
+		"/Users/Brent/IronYard/week-2/2.2/bower.json",
+		"/Users/Brent/IronYard/week-2/2.2/.gitignore",
+		"/Users/Brent/Brocfile.js",
+		"/Users/Brent/IronYard/week-2/2.1/.gitignore",
+		"/Users/Brent/IronYard/week-1/1.3/styles.css",
+		"/Users/Brent/IronYard/week-1/1.3/index.html",
+		"/Users/Brent/IronYard/week-1/1.3/styles/styles.css",
+		"/Users/Brent/IronYard/week-1/1.2-layout-basic/index.html",
+		"/Users/Brent/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/Brent/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/Brent/.gitignore_global",
+		"/Users/Brent/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Brent/Library/Application Support/Sublime Text 3/Packages/User/html5.sublime-snippet",
+		"/Users/Brent/test.html",
+		"/Users/Brent/Library/Application Support/Sublime Text 3/Packages/User/html-boiler.sublime-snippet",
+		"/Users/Brent/IronYard/week-1/1.2-layout-basic/styles/styles.css",
+		"/Users/Brent/IronYard/week-1/lesson-1/1.1-basic-git/index.html",
+		"/Users/Brent/IronYard/week-1/lesson-1/1.1-basic-git/.git/COMMIT_EDITMSG"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button",
+			"querySelector",
+			"this",
+			"numButtons",
+			"console.log",
+			"return",
+			"c",
+			"sum",
+			"    ",
+			"fizzbuzz",
+			"event description",
+			".linear",
+			"device",
+			"caption",
+			"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSh17GiojAnozld66JP8KOCO7zngUGRZyuxt2EDAbg9_ntbMjCO3A",
+			"a href",
+			"<a href=\"#\">",
+			"chocolate",
+			"lightgray",
+			"sandybrown",
+			"chocolate",
+			"margin:none;",
+			" 0px",
+			":0px",
+			"0px",
+			"h3",
+			"more stuff",
+			"- [ ]",
+			"[ ]",
+			"* ",
+			"mate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ind",
+				"public/index.html"
+			],
+			[
+				"b",
+				"Brocfile.js"
+			],
+			[
+				"br",
+				"Brocfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/IronYard/week-3/lesson-4/public/index.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
