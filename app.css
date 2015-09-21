@@ -1853,14 +1853,27 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+body {
+  background: white;
+  min-width: 960px;
+  display: flex;
+  flex-direction: column; }
+
+a {
+  text-decoration: none; }
+
+h3, p {
+  color: #646464; }
+
 .content {
   background: #FEFDE7;
-  width: 960px; }
+  width: 100%; }
 
 .top-menu {
   padding: 1em 2em;
   border-bottom: 2px #646464 solid;
-  background: white; }
+  background: white;
+  width: 100%; }
   .top-menu h1 {
     display: inline;
     color: #f45800;
@@ -1868,6 +1881,33 @@ html {
     font-size: 2.5em;
     vertical-align: bottom;
     padding-right: 4px; }
+
+.menu-button {
+  padding: .4em;
+  border: 1px solid #646464;
+  border-radius: 4px;
+  font-family: arial;
+  color: #646464;
+  position: absolute;
+  left: 27em;
+  top: 1.5em;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  background: white; }
+
+.menu-button li {
+  font-family: arial;
+  padding: .4em; }
+
+.sub-menu {
+  display: none;
+  padding-top: 1em;
+  position: relative; }
+
+.menu-button:hover .sub-menu {
+  display: block;
+  z-index: 2; }
 
 input {
   width: 25em;
@@ -1895,34 +1935,6 @@ button {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px; }
 
-.top-menu ul {
-  position: absolute;
-  left: 27em;
-  top: 4em;
-  border: 1px solid #646464;
-  border-radius: 4px; }
-
-.menu-button {
-  width: 5em;
-  padding: .4em;
-  border: 1px solid #646464;
-  border-radius: 4px;
-  font-family: arial;
-  color: #646464;
-  position: absolute;
-  left: 27em;
-  top: 1.5em; }
-
-.menu-button li {
-  position: absolute;
-  right: 21em;
-  top: 5em;
-  font-family: arial;
-  color: white;
-  padding: .4em;
-  background: #646464;
-  display: none; }
-
 .right-side {
   padding-top: 1em;
   width: 10em;
@@ -1935,13 +1947,15 @@ button {
     border-radius: 4px;
     padding: .4em; }
   .right-side i {
-    color: black; }
+    color: black;
+    font-size: 1.5em; }
 
 .sidebar {
   padding: .5em;
   font-family: Arial;
   background: #FEFDE7;
-  width: 18em; }
+  width: 18em;
+  float: left; }
 
 .sidemenu-1 {
   background: white;
@@ -1955,17 +1969,12 @@ button {
   padding: 0.4em 0.8em 0.4em 0.4em; }
 
 .main-content {
-  float: right;
+  float: left;
   width: 40em;
-  background: white;
-  position: absolute;
-  top: 5em;
-  left: 18em;
-  height: 500em; }
+  background: #FEFDE7; }
 
 .item {
   float: left;
-  background: red;
   width: 12.5em;
   height: 16em;
   margin-left: .6em;
@@ -1974,3 +1983,24 @@ button {
     width: 95%;
     margin-left: 2.5%;
     margin-top: 2.5%; }
+
+.footer {
+  width: 100%;
+  padding: 3em 5em;
+  border-top: 1px solid #646464;
+  background: #C6C09C; }
+
+.footer-top {
+  display: flex;
+  flex-direction: row; }
+
+.footer-top > li {
+  flex-grow: 1;
+  background: white;
+  margin: 0 1em;
+  border-radius: .5em;
+  padding: .5em; }
+
+.footer-links a {
+  text-decoration: none;
+  color: #3DAFC8; }

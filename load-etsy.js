@@ -11,7 +11,7 @@ var loadEtsy = function(query, onload, immediate) {
     url: url,
     jsonp: 'callback',
     dataType: 'jsonp',
-    success: onload
+    success: onload,
   });
 
   if (immediate) {
@@ -26,4 +26,4 @@ var loadEtsy = function(query, onload, immediate) {
 
 };
 
-loadEtsy('abstract painting', onload);
+// loadEtsy('abstract painting', onload);
