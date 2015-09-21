@@ -16,14 +16,23 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+    background: $menu-bg-2;
+    min-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
 .content {
     background: $menu-bg-1;
-    width: 960px;
+    width: 100%;
+    // display: flex;
 }
+
 .top-menu {
     padding: 1em 2em;
     border-bottom: 2px $menu-text-1 solid;
     background: $menu-bg-2;
+    width: 100%;
 
     h1 {
         display: inline;
@@ -35,16 +44,49 @@ html {
 
     }
 }
-input {
-        width: 25em;
-        display: inline;
-        padding: 6px 10px;
-        height: 34px;
-        border-radius: 5px;
-        overflow:auto;
-        border: 1px $menu-text-1 solid;
+.menu-button {
+    // width: 5em;
+    padding: .4em;
+    border: 1px solid $menu-text-1;
+    border-radius: 4px;
+    font-family: arial;
+    color: $menu-text-1;
+    position: absolute;
+    left: 27em;
+    top: 1.5em;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background: $menu-bg-2;
+}
 
-    }
+
+.menu-button li {
+
+    font-family: arial;
+    // color: $menu-bg-2;
+    padding: .4em;
+    // background: $menu-text-1;
+}
+.sub-menu {
+    display: none;
+    padding-top: 1em;
+    position: relative;
+}
+.menu-button:hover .sub-menu {
+    display: block;
+    z-index: 2;
+}
+input {
+    width: 25em;
+    display: inline;
+    padding: 6px 10px;
+    height: 34px;
+    border-radius: 5px;
+    overflow:auto;
+    border: 1px $menu-text-1 solid;
+}
+
 button {
     background:$menu-text-2;
     position: absolute;
@@ -62,38 +104,6 @@ button {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.top-menu ul{
-    position: absolute;
-    left: 27em;
-    top: 4em;
-    border: 1px solid $menu-text-1;
-    border-radius: 4px;
-}
-
-.menu-button {
-    width: 5em;
-    padding: .4em;
-    border: 1px solid $menu-text-1;
-    border-radius: 4px;
-    font-family: arial;
-    color: $menu-text-1;
-    position: absolute;
-    left: 27em;
-    top: 1.5em;
-
-}
-
-.menu-button li {
-    position: absolute;
-    right: 21em;
-    top: 5em;
-    font-family: arial;
-    color: $menu-bg-2;
-    padding: .4em;
-    background: $menu-text-1;
-    display: none;
-}
-
 .right-side {
     padding-top: 1em;
     width: 10em;
@@ -102,12 +112,13 @@ button {
     font-family: arial;
     font-size: 1em;
     span {
-    border: 1px solid $menu-text-2;
-    border-radius: 4px;
-    padding: .4em;
+        border: 1px solid $menu-text-2;
+        border-radius: 4px;
+        padding: .4em;
     }
     i {
-        color: black
+        color: black;
+        font-size: 1.5em;
     }
 }
 .sidebar {
@@ -115,6 +126,7 @@ button {
     font-family: Arial;
     background: $menu-bg-1;
     width: 18em;
+    float: left;
 }
 .sidemenu-1 {
     background: $menu-bg-2;
@@ -128,17 +140,13 @@ button {
     padding: .4em .8em .4em .4em;
 }
 .main-content {
-    float: right;
+    float: left;
     width: 40em;
-    background: $menu-bg-2;
-    position: absolute;
-    top: 5em;
-    left: 18em;
-    height: 500em;
+    background: $menu-bg-1;
 }
 .item {
     float: left;
-    background: red;
+    // background: red;
     width: 12.5em;
     height: 16em;
     margin-left: .6em;
@@ -149,5 +157,27 @@ button {
         margin-top: 2.5%
     }
 }
+.footer {
+    width: 100%;
+    padding: 3em 5em;
+    border-top: 1px solid $menu-text-1;
+    background:#C6C09C;
+}
+.footer-top{
+    display: flex;
+    flex-direction: row;
+}
+.footer-top>li {
+    flex-grow: 1;
+    background: $menu-bg-2;
+    margin: 0 1em;
+    border-radius: .5em;
+    padding: .5em;
+}
+.footer-links a {
+    text-decoration: none;
+    color: $menu-text-2;
+}
+
 // Your SASS Journey Starts Here
 //
