@@ -88,9 +88,11 @@
 <template id="item-partial">
     <div class="item">
     {{log item}}
-        <img src="{{item.Images.0.url_170x135}}" alt="{{item.title}}">
-        <h3>{{item.title}}</h3>
-        <p>{{item.shop_name}} {{item.price}}</p>
+        <a href="{{item.url}}">
+            <img src="{{item.Images.0.url_170x135}}" alt="{{item.title}}">
+            <h3>{{item.title}}</h3>
+            <p>{{item.shop_name}} {{item.price}}</p>
+        </a>
     </div>
 </template>
 <template id="main-template">
